@@ -4,5 +4,4 @@ const express_1 = require("express");
 const dashboardControllers_1 = require("../controllers/dashboardControllers");
 const router = (0, express_1.Router)();
 router.get("/", dashboardControllers_1.getDashboardMetrics);
-// http://localhost:8000/dashboard/metrics
 exports.default = router;
